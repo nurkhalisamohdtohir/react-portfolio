@@ -1,0 +1,26 @@
+.education-container{
+    background-color: #19334d;
+}
+.education-heading{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+    font-size: 3rem;
+    color: #FAEBD7;
+}
+
+.timeline-element-education .location{
+    color: #6384a2;
+}
+
+.timeline-element-education p{
+    color:black;
+}
+
+.timeline-element-education ul{
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.timeline-element-education .vertical-timeline-element-date {
+    color: white; 
+}
