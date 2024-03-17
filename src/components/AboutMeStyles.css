@@ -7,8 +7,8 @@
 .about-heading{
     color: #19334d;
     text-align: center;
-    padding: 4rem 0 2rem 0;
-    font-size: 3rem;
+    padding: 2rem 0 2rem 0;
+    font-size: 2rem;
 }
 
 .about-container{
@@ -16,11 +16,12 @@
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-gap: 40px;
+    grid-gap: 30px;
 }
 
 .greeting{
     color: #6384a2;
+    font-size: 1.5rem;
 }
 
 .left{
@@ -28,7 +29,7 @@
     max-width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .right{
@@ -36,18 +37,18 @@
     max-width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .left p{
     color: black;
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 40px;
 }
 
 .right p{
     color: black;
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 25px;
     text-align: justify;
     padding-top: 20px;

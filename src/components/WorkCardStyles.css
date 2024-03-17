@@ -1,7 +1,7 @@
 .project-heading{
     text-align: center;
-    padding: 4rem 0 4rem 0;
-    font-size: 3rem;
+    padding: 2rem 0 2rem 0;
+    font-size: 2rem;
     color: #19334d;
 }
 
@@ -34,12 +34,12 @@
 .project-title{
     color: #19334d;
     padding: 1rem 0;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .project-detail p{
     padding-bottom: 1rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-align: justify;
     color: black;
 }

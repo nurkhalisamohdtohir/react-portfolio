@@ -15,12 +15,10 @@ const AboutMe = () => {
                 <p><FaEnvelope size={18} style={{color:"#6384a2", marginRight: "1rem"}} /> lisatohir@gmail.com</p>
             </div>
             <div className="right">
-                <h1 className="greeting">Hello! I'm Lisa.</h1>
-                <p>A recent graduate with a degree in Software Development. Passionate about creating user-friendly websites and ensuring their quality through meticulous testing practices.
-                Eager to embark on a rewarding career, I am dedicated to continuous learning and professional growth.
-                </p>
-                <p>My goal is to work on innovative projects, learn new technologies, and contribute to creating engaging online experiences. Whether it's developing robust software solutions or ensuring their seamless functionality through testing, I am committed to delivering excellence.</p>
-                <p>I'm currently seeking opportunities to leverage my skills and contribute to the success of software development projects. If you're looking for a detail-oriented and dedicated software developer/tester, feel free to reach out to me at any time!</p>
+                <h1 className="greeting">Hi there, I'm Lisa!</h1>
+                <p>A recent graduate with a degree in Software Development. I'm ready to dive headfirst into the world of software development. While my experience might be green, I'm passionate to jump into exciting projects where I can learn, grow, and make a real impact. Whether it's coding sleek software or testing it inside out, I'm all in for delivering top-notch results.</p>
+                <p>I've spent years honing my skills, learning the ins and outs of coding, and now I'm eager to put theory into practice. Whether it's HTML, CSS, JavaScript, or diving into new tech stacks, I'm up for the challenge.</p>
+                <p>I may be new to the game, but my dedication to learn and grow in this ever-evolving field is unmatched. I'm seeking opportunities to kickstart my career, collaborate with experienced professionals, and make a tangible impact. If you're looking for a motivated and adaptable team player, feel free to reach out to me at any time. Let's work together to bring ideas to life!</p>
                 <p>
                     <a href="https://github.com/nurkhalisamohdtohir" target="_blank" rel="noopener noreferrer" title="GitHub"> <FaGithub size={30} style={{color:"#6384a2", marginRight: "2rem"}} /> </a>
                     <a href="https://www.linkedin.com/in/nurkhalisa-mohd-tohir/" target="_blank" rel="noopener noreferrer" title="LinkedIn"> <FaLinkedin size={30} style={{color:"#6384a2", marginRight: "2rem"}} /> </a>

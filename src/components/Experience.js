@@ -14,10 +14,10 @@ const Experience = () => {
                 <p className='location'>AMTIS Solution Sdn Bhd, Ayer Keroh, Melaka</p>
                 <p>
                     <ul>
-                        <li>Collaborated with the development team to develop an ongoing project of research management information system, utilizing the Laravel framework to meet client requirements. </li>
-                        <li>Participated in client meetings with fellow developers to gain insights into project scopes.</li>
-                        <li>Contributed to the improvement of user experience for two fully developed systems, each developed by using Vue.js and PHP Vanilla, addressing minor issues such as bug fixes and aligning layouts based on provided wireframes.</li>
-                        <li>Conducted a Facebook Live sharing session in collaboration with the marketing team, aiming to boost exposure and promote the company's services, fostering relationships with the audience.</li>
+                        <li>Played a key role in developing a research management information system using Laravel framework, contributing to 3 modules and meeting project deadlines consistently. </li>
+                        <li>Participated in client meetings with fellow developers, gaining insights into project scopes and user expectations.</li>
+                        <li>Enhanced user experience for 2 systems that utilize Vue.js and Vanilla PHP, addressing bugs and improving layouts based on provided wireframes, resulted in a smoother and more intuitive user interface. </li>
+                        <li>Conducted a Facebook Live sharing session in collaboration with marketing team, aiming to boost exposure and promote the company's services, fostering relationships with the audience and expanding our online presence. </li>
                     </ul>
                 </p>
             </VerticalTimelineElement>
@@ -27,9 +27,9 @@ const Experience = () => {
                 <p className='location'>Syarikat Faiza Sdn Bhd, Batu Pahat, Johor (HQ)</p>
                 <p>
                     <ul>
-                        <li>Contributed to the administration of the company's information system, ensuring seamless operation across multiple branches.</li>
-                        <li>Addressed staff requests from over five branches, facilitating access to the system and resolving related inquiries.</li>
-                        <li>Supported the maintenance of existing computer systems by actively monitoring antivirus software and implementing necessary updates.</li>
+                        <li>Contributed in administering the company's information system by addressing staff requests from over 5 branches, ensuring seamless operation and improved accessibility.</li>
+                        <li>Took charge of data entry tasks by inputting crucial information into the system to support decision-making and operational efficiency. </li>
+                        <li>Supported the maintenance of existing computer systems by actively monitoring antivirus software and implementing necessary updates, resulting in enhanced system reliability and security. </li>
                         <li>Provided technical support by configuring essential tools for meetings, interviews, and training sessions, ensuring efficient and effective operational processes.</li>
                     </ul>
                 </p>

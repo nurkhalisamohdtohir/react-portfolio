@@ -11,13 +11,15 @@ import {
 import Home from "./components/Home.js";
 import WorkDetails from './components/WorkDetails';
 import WorkCardData from "./components/WorkCardData.js";
+import PdfViewer from "./components/PdfViewer.js";
 
 function App() {
   return (
     <Router>
       <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/project/:id" element={<WorkDetails projects={WorkCardData} />} />
+          {/*<Route path="/project/:id" element={<WorkDetails projects={WorkCardData} />} />
+          <Route path="/pdf" element={<PdfViewer />} />*/}
         </Routes>
     </Router>
   );

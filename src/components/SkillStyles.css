@@ -1,62 +1,67 @@
 .skill-container {
   width: 100%;
-  padding: 2rem;
   background-color: #FAEBD7;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center the container horizontally */
 }
 
 .skill-heading {
   text-align: center;
-  padding: 4rem 0 4rem 0;
-  font-size: 3rem;
+  padding: 2rem 0 2rem 0;
+  font-size: 2rem;
   color: #19334d;
 }
 
 .category-row {
-  width: 80%;
-  padding-bottom: 20px;
-  margin: auto;
   display: flex;
-  flex-direction: row;
   align-items: center;
+  margin-bottom: 1rem;
 }
 
 .category-row h2 {
-  font-size: 1.5rem;
-  padding-right: 40px;
-}
-
-.category-row ul {
-  list-style: none;
-}
-
-.category-row li {
-  margin-right: 20px;
-  display: inline;
-}
-
-.category-row span {
-  margin-left: 10px;
   font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icon-wrapper {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
   align-items: center;
+  font-size:1rem;
 }
 
 .skill-icon {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
+  margin-right: 0.5rem;
 }
 
 @media screen and (max-width: 768px) {
+  .skill-container {
+    width: 90%;
+    justify-content: flex-start; /* Align the container to the left */
+  }
+  
   .category-row {
     flex-direction: column;
+    justify-content: flex-start;
   }
 
   .category-row h2 {
-    font-size: 1.5rem;
-    padding-right: 20px;
-    margin-bottom: 20px;
+    margin-right: 0;
+    margin-bottom: 0.5rem;
   }
 
-  .category-row span {
-    font-size: 1.2rem;
+  .icons{
+    justify-content: center;
   }
 }

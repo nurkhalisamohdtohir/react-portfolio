@@ -14,7 +14,7 @@ const WorkCard = (props) => {
             <p><b>Skills:</b> {props.skill}</p>
         </div>
         <div className="project-btn">
-          <a href={props.view} className="btn">Read More</a>
+          <a href={props.view} target="_blank" rel="noopener noreferrer" className="btn">Read More</a>
           <a href={props.source} target="_blank" rel="noopener noreferrer" className="btn">View Code</a>
         </div>
     </div>

@@ -17,7 +17,7 @@ const HeroImg = () => {
           <img className="profile-pic" src={ProfileImg} alt="Profile Picture" />
         </div>
         <h1>- Nurkhalisa Binti Mohd Tohir -</h1>
-        <p>Recent Graduate | Software Developer & Tester | Passionate about crafting user-friendly websites | Committed to excellence, continuous learning, and innovation.</p>
+        <p>Recent Graduate | Software Developer & Tester | Crafting User-Friendly Websites | Committed to Excellence | Love Exploring New Things</p>
         <div className="social">
             <a href="https://github.com/nurkhalisamohdtohir" target="_blank" rel="noopener noreferrer" title="GitHub"> <FaGithub size={30} style={{color:"#FAEBD7", marginRight: "2rem"}} /> </a>
             <a href="https://www.linkedin.com/in/nurkhalisa-mohd-tohir/" target="_blank" rel="noopener noreferrer" title="LinkedIn"> <FaLinkedin size={30} style={{color:"#FAEBD7", marginRight: "2rem"}} /> </a>

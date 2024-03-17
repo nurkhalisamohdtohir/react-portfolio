@@ -1,4 +1,4 @@
-import WorkImg from "../assets/intro-bg.jpg";
+import Portfolio from "../assets/portfolio.jpg";
 
 import Apma1 from "../assets/apma/apma-admin1.jpg";
 import Apma2 from "../assets/apma/apma-admin2.jpg";
@@ -54,30 +54,7 @@ import Evehicle19 from "../assets/evehicle/evehicle-driver2.jpg";
 import Evehicle20 from "../assets/evehicle/evehicle-driver3.jpg";
 import Evehicle21 from "../assets/evehicle/evehicle-driver4.jpg";
 
-import Growcer1 from "../assets/growcer/growcer-admin1.jpg";
-import Growcer2 from "../assets/growcer/growcer-admin2.jpg";
-import Growcer3 from "../assets/growcer/growcer-admin3.jpg";
-import Growcer4 from "../assets/growcer/growcer-admin4.jpg";
-import Growcer5 from "../assets/growcer/growcer-admin5.jpg";
-import Growcer6 from "../assets/growcer/growcer-admin6.jpg";
-import Growcer7 from "../assets/growcer/growcer-admin7.jpg";
-import Growcer8 from "../assets/growcer/growcer-admin8.jpg";
-import Growcer9 from "../assets/growcer/growcer-admin9.jpg";
-import Growcer10 from "../assets/growcer/growcer-admin10.jpg";
-import Growcer11 from "../assets/growcer/growcer-admin11.jpg";
-import Growcer12 from "../assets/growcer/growcer-admin12.jpg";
-import Growcer13 from "../assets/growcer/growcer-admin13.jpg";
-import Growcer14 from "../assets/growcer/growcer-admin14.jpg";
-import Growcer15 from "../assets/growcer/growcer-customer1.jpg";
-import Growcer16 from "../assets/growcer/growcer-customer2.jpg";
-import Growcer17 from "../assets/growcer/growcer-customer4.jpg";
-import Growcer18 from "../assets/growcer/growcer-customer5.jpg";
-import Growcer19 from "../assets/growcer/growcer-customer6.jpg";
-import Growcer20 from "../assets/growcer/growcer-customer7.jpg";
-import Growcer21 from "../assets/growcer/growcer-customer8.jpg";
-import Growcer22 from "../assets/growcer/growcer-customer9.jpg";
-import Growcer23 from "../assets/growcer/growcer-customer10.jpg";
-import Growcer24 from "../assets/growcer/growcer-customer11.jpg";
+import Growcer from "../assets/growcer/growcer.jpg";
 
 import Calculator1 from "../assets/calculator/calculator-1.jpg";
 import Calculator2 from "../assets/calculator/calculator-2.jpg";
@@ -106,12 +83,68 @@ import Hotel20 from "../assets/hotel/hotel-housekeeper1.jpg";
 const WorkCardData = [
     {
         id: '1',
+        imgsrc: Growcer,
+        title: "Growcer",
+        text: "An app that will improve the current work done for store owner to manage business systematically and efficiently.",
+        desc: (
+            <div>
+                <p>Growcer is a user-friendly and efficient solution designed to enhance the convenience of shopping by bringing the grocery store experience to the fingertips of customers. This system provides seamless functionality for both administrators and users.</p>
+                <h3>Admin Features:</h3>
+                <ul>
+                    <li><b>Stock Management:</b> Admins can effortlessly monitor stock availability, add new items, remove outdated products, and update existing stock details in the database.</li>
+                    <li><b>Order Management:</b> The system empowers admins to oversee and manage customer orders. Admins can view and organize orders, ensuring timely preparation, packaging, and delivery to customers' homes.</li>
+                    <li><b>Automated Total Calculation:</b> The system automatically calculates the total amount of orders, including delivery charges, streamlining the financial aspects of the business.</li>
+                </ul>
+                <h3>Customer Features:</h3>
+                <ul>
+                    <li><b>Effortless Registration:</b> Users can easily register as members on the website, creating a personalized account for a tailored shopping experience.</li>
+                    <li><b>Intuitive Shopping Experience:</b> Customers can search for desired items based on categories or brands, adding products to their virtual cart for a simplified order creation process.</li>
+                    <li><b>Order Management:</b> The system displays a comprehensive order list with the total amount, allowing users to review and submit orders seamlessly.</li>
+                    <li><b>Flexible Delivery Options:</b> Customers can choose between convenient options, whether to pick up their orders at the store or opt for a hassle-free delivery service to their doorstep.</li>
+                </ul>
+                <h3>Technologies Used:</h3>
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>Javascript</li>
+                    <li>PHP</li>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+        ),
+        skill: "HTML/CSS, JavaScript, PHP, Laravel, MySQL",
+        view: "https://drive.google.com/file/d/1IlCGn2acne8J_4P1w6HaySzyiHmyTquQ/view?usp=drive_link",
+        source: "https://github.com/nurkhalisamohdtohir/growcer",
+        images: [
+            { image: Growcer, caption: "Admin menu for adding new users to the system." },
+            { image: Growcer, caption: "Admin menu for updating current profile details." },
+            { image: Growcer, caption: "Admin menu for managing categories of products." },
+            { image: Growcer, caption: "Admin menu for managing brands of products." },
+            { image: Growcer, caption: "Admin menu for adding new products to the system." },
+            { image: Growcer, caption: "Admin menu for updating current product details." },
+            { image: Growcer, caption: "Admin menu for managing products." },
+            { image: Growcer, caption: "Admin menu for adding new type of services to the system." },
+            { image: Growcer, caption: "Admin menu for managing services." },
+            { image: Growcer, caption: "Admin menu for managing orders." },
+            { image: Growcer, caption: "Customer registration page." },
+            { image: Growcer, caption: "Customer login page." },
+            { image: Growcer, caption: "Customer's overview of products." },
+            { image: Growcer, caption: "Customer's overview of sorting products." },
+            { image: Growcer, caption: "Customer's overview of recipes." },
+            { image: Growcer, caption: "Customer's overview of shopping cart from home page." },
+            { image: Growcer, caption: "Customer menu for managing shopping cart." },
+            { image: Growcer, caption: "Customer checkout page." },
+            { image: Growcer, caption: "Customer's overview of order details." },
+            { image: Growcer, caption: "Customer's overview of order invoice." },
+        ],
+    },
+    {
+        id: '2',
         imgsrc: Apma1,
         title: "APMA",
-        text: "An app that streamline various processes within the company, enhancing efficiency and automating tasks related to vehicle booking and maintenance.",
-        skill: "HTML/CSS, Javascript, PHP, Java, MySQL",
-        view: "/project/1",
-        source: "https://github.com/nurkhalisamohdtohir/E-VehicleApp",
+        text: "An app that streamline apparel production monitoring with its web-based and mobile application.",
+        skill: "HTML/CSS, JavaScript, PHP, Java, MySQL",
+        view: "https://drive.google.com/file/d/1rsSm041vzrAAjN1z0NFJNG96dOgFjexr/view?usp=drive_link",
+        source: "https://github.com/nurkhalisamohdtohir/apma",
         images: [
             { image: Apma1, caption: "Employee registration page." },
             { image: Apma2, caption: "Email that contain login credentials." },
@@ -147,10 +180,10 @@ const WorkCardData = [
         ],
     },
     {
-        id: '2',
+        id: '3',
         imgsrc: Evehicle1,
         title: "E-Vehicle",
-        text: "An app that streamline various processes within the company, enhancing efficiency and automating tasks related to vehicle booking and maintenance.",
+        text: "An app that streamline various processes with its web-based and mobile application, enhancing efficiency and automating tasks related to vehicle booking and maintenance.",
         desc: (
             <div>
                 <p>E-Vehicle is designed to streamline various processes within the company, enhancing efficiency and automating tasks related to vehicle booking and maintenance.</p>
@@ -204,9 +237,9 @@ const WorkCardData = [
                 </ul>
             </div>
         ),
-        skill: "HTML/CSS, Javascript, PHP, Java, MySQL",
-        view: "/project/2",
-        source: "https://github.com/nurkhalisamohdtohir/E-VehicleApp",
+        skill: "HTML/CSS, JavaScript, PHP, Java, MySQL",
+        view: "https://drive.google.com/file/d/1WtKut33uEXhbw3yii35Ybl_zBzqE3i7h/view?usp=drive_link",
+        source: "https://github.com/nurkhalisamohdtohir/evehicle",
         images: [
             { image: Evehicle1, caption: "Staff login page." },
             { image: Evehicle2, caption: "Admin control hub for efficient operations." },
@@ -232,70 +265,14 @@ const WorkCardData = [
         ],
     },
     {
-        id: '3',
-        imgsrc: Growcer15,
-        title: "Growcer",
-        text: "An app that will improve the current work done for store owner to manage business systematically and efficiently.",
-        desc: (
-            <div>
-                <p>Growcer is a user-friendly and efficient solution designed to enhance the convenience of shopping by bringing the grocery store experience to the fingertips of customers. This system provides seamless functionality for both administrators and users.</p>
-                <h3>Admin Features:</h3>
-                <ul>
-                    <li><b>Stock Management:</b> Admins can effortlessly monitor stock availability, add new items, remove outdated products, and update existing stock details in the database.</li>
-                    <li><b>Order Management:</b> The system empowers admins to oversee and manage customer orders. Admins can view and organize orders, ensuring timely preparation, packaging, and delivery to customers' homes.</li>
-                    <li><b>Automated Total Calculation:</b> The system automatically calculates the total amount of orders, including delivery charges, streamlining the financial aspects of the business.</li>
-                </ul>
-                <h3>Customer Features:</h3>
-                <ul>
-                    <li><b>Effortless Registration:</b> Users can easily register as members on the website, creating a personalized account for a tailored shopping experience.</li>
-                    <li><b>Intuitive Shopping Experience:</b> Customers can search for desired items based on categories or brands, adding products to their virtual cart for a simplified order creation process.</li>
-                    <li><b>Order Management:</b> The system displays a comprehensive order list with the total amount, allowing users to review and submit orders seamlessly.</li>
-                    <li><b>Flexible Delivery Options:</b> Customers can choose between convenient options, whether to pick up their orders at the store or opt for a hassle-free delivery service to their doorstep.</li>
-                </ul>
-                <h3>Technologies Used:</h3>
-                <ul>
-                    <li>HTML/CSS</li>
-                    <li>Javascript</li>
-                    <li>PHP</li>
-                    <li>MySQL</li>
-                </ul>
-            </div>
-        ),
-        skill: "HTML/CSS, Javascript, PHP, MySQL",
-        view: "/project/3",
-        source: "https://github.com/nurkhalisamohdtohir/E-VehicleApp",
-        images: [
-            { image: Growcer1, caption: "Admin menu for adding new users to the system." },
-            { image: Growcer2, caption: "Admin menu for updating current profile details." },
-            { image: Growcer5, caption: "Admin menu for managing categories of products." },
-            { image: Growcer8, caption: "Admin menu for managing brands of products." },
-            { image: Growcer9, caption: "Admin menu for adding new products to the system." },
-            { image: Growcer10, caption: "Admin menu for updating current product details." },
-            { image: Growcer11, caption: "Admin menu for managing products." },
-            { image: Growcer12, caption: "Admin menu for adding new type of services to the system." },
-            { image: Growcer13, caption: "Admin menu for managing services." },
-            { image: Growcer14, caption: "Admin menu for managing orders." },
-            { image: Growcer15, caption: "Customer registration page." },
-            { image: Growcer16, caption: "Customer login page." },
-            { image: Growcer17, caption: "Customer's overview of products." },
-            { image: Growcer18, caption: "Customer's overview of sorting products." },
-            { image: Growcer19, caption: "Customer's overview of recipes." },
-            { image: Growcer20, caption: "Customer's overview of shopping cart from home page." },
-            { image: Growcer21, caption: "Customer menu for managing shopping cart." },
-            { image: Growcer22, caption: "Customer checkout page." },
-            { image: Growcer23, caption: "Customer's overview of order details." },
-            { image: Growcer24, caption: "Customer's overview of order invoice." },
-        ],
-    },
-    {
         id: '4',
-        imgsrc: WorkImg,
+        imgsrc: Portfolio,
         title: "Portfolio",
-        text: "I designed my own portfolio.",
-        skill: "HTML/CSS, Javascript, React.js",
-        view: "/project/4",
-        source: "https://github.com/nurkhalisamohdtohir/nurkhalisamohdtohir.github.io",
-        images: [WorkImg, WorkImg],
+        text: "I designed my own portfolio using React.",
+        skill: "HTML/CSS, JavaScript, React.js",
+        view: "https://nurkhalisamohdtohir.vercel.app/",
+        source: "https://github.com/nurkhalisamohdtohir/react-portfolio",
+        images: [Portfolio, Portfolio],
     },
     {
         id: '5',
@@ -325,8 +302,8 @@ const WorkCardData = [
             </div>
         ),
         skill: "HTML/CSS, PHP",
-        view: "/project/5",
-        source: "https://github.com/nurkhalisamohdtohir/ElectricityCalculatorApp",
+        view: "https://electricity-calculator-opal.vercel.app/",
+        source: "https://github.com/nurkhalisamohdtohir/electricity-calculator",
         images: [
             { image: Calculator1, caption: "Welcome to the Electricity Calculator App!" },
             { image: Calculator2, caption: "Input Voltage (V), Current (A) and Current Rate (sen/kWh) then click Calculate button to get the results." }
@@ -336,7 +313,7 @@ const WorkCardData = [
         id: '6',
         imgsrc: Hotel1,
         title: "Hotel Room Management System",
-        text: "An app that streamline the booking process, providing an efficient solution for hotel management.",
+        text: "An app that streamline the booking process, from managing room availability to handling customer reservations and housekeeping tasks, providing an efficient solution for hotel management.",
         desc: (
             <div>
                 <p>An app that streamlines the booking process, providing an efficient solution for hotel management.</p>
@@ -370,8 +347,8 @@ const WorkCardData = [
             </div>
         ),
         skill: "C++, MySQL",
-        view: "/project/6",
-        source: "https://github.com/nurkhalisamohdtohir/HotelManagementApp",
+        view: "https://drive.google.com/file/d/1iO64saa9oAD1nmYtnhJneAwBN3jWyON6/view?usp=drive_link",
+        source: "https://github.com/nurkhalisamohdtohir/hotel-management",
         images: [
             { image: Hotel1, caption: "Main page for Hotel Room Management System." },
             { image: Hotel2, caption: "Admin control hub for efficient operations." },
