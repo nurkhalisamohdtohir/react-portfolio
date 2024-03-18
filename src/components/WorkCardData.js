@@ -141,7 +141,7 @@ const WorkCardData = [
         id: '2',
         imgsrc: Apma1,
         title: "APMA",
-        text: "An app that streamline apparel production monitoring with its web-based and mobile application.",
+        text: "An app based on both web and mobile application that implements QR code as an input tool for managing production efficiently.",
         skill: "HTML/CSS, JavaScript, PHP, Java, MySQL",
         view: "https://drive.google.com/file/d/1rsSm041vzrAAjN1z0NFJNG96dOgFjexr/view?usp=drive_link",
         source: "https://github.com/nurkhalisamohdtohir/apma",
@@ -183,7 +183,7 @@ const WorkCardData = [
         id: '3',
         imgsrc: Evehicle1,
         title: "E-Vehicle",
-        text: "An app that streamline various processes with its web-based and mobile application, enhancing efficiency and automating tasks related to vehicle booking and maintenance.",
+        text: "An app based on both web and mobile application that can ease the process of requesting vehicle booking, managing booking request and monitoring vehicle maintenance record.",
         desc: (
             <div>
                 <p>E-Vehicle is designed to streamline various processes within the company, enhancing efficiency and automating tasks related to vehicle booking and maintenance.</p>
