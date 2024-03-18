@@ -21,7 +21,7 @@ const HeroImg = () => {
         <div className="social">
             <a href="https://github.com/nurkhalisamohdtohir" target="_blank" rel="noopener noreferrer" title="GitHub"> <FaGithub size={30} style={{color:"#FAEBD7", marginRight: "2rem"}} /> </a>
             <a href="https://www.linkedin.com/in/nurkhalisa-mohd-tohir/" target="_blank" rel="noopener noreferrer" title="LinkedIn"> <FaLinkedin size={30} style={{color:"#FAEBD7", marginRight: "2rem"}} /> </a>
-            <a href="" target="_blank" rel="noopener noreferrer" title="Resume"> <FaRegFilePdf size={30} style={{color:"#FAEBD7"}} /> </a>
+            <a href="https://drive.google.com/file/d/1HzsC2hlXE0yQcck2Tbx932osU7ol7rN9/view?usp=drive_link" target="_blank" rel="noopener noreferrer" title="Resume"> <FaRegFilePdf size={30} style={{color:"#FAEBD7"}} /> </a>
         </div>
         {/* 
         <div>
